@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #151515;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Play', sans-serif;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #fff;
+    transition: width 0.3s ease;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.name {
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    transition: transform 0.3s ease;
+}
+
+.name:hover {
+    transform: scale(1.1);
+}
+
+.icons {
+    font-size: 16px;
+}
+
+.icons2 {
+    font-size: 30px;
+    color: #fff;
+    margin-right: 15px;
+}
+@media (max-width: 768px) {
+    nav ul li a .menu-text {
+        display: none;
+    }
+
+    nav ul li a .menu-icon {
+        display: inline-block;
+    }
+    nav ul li a:hover::after {
+        width: 70%;
+    }
+}
+
+@media (min-width: 769px) {
+    nav ul li a .menu-text {
+        display: inline-block;
+    }
+
+    nav ul li a .menu-icon {
+        display: none;
+    }
+    nav ul li a:hover::after {
+        width: 100%;
+    }
+}
+
