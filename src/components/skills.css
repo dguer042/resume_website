@@ -1,0 +1,128 @@
+#skills {
+    background-color: #151515;
+    color: #fff;
+    padding: 1rem 2rem;
+    min-height: 100vh;
+    padding-top: 60px;
+}
+
+#skills h1 {
+    font-family: 'Play', sans-serif;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
+
+.skill-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+    font-family: 'Play', sans-serif;
+}
+
+.ucr-image {
+    width: 10%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.text-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.skill-container {
+    margin-left: 10%;
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.skill-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+
+}
+
+.cpp-image {
+    width: 8%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.cpp-image:hover {
+    transform: scale(1.1);
+}
+
+.swift-image {
+    width: 8%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.swift-image:hover {
+    transform: scale(1.1);
+}
+
+.python-image {
+    width: 8%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.python-image:hover {
+    transform: scale(1.1);
+}
+
+.js-image {
+    width: 8%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.js-image:hover {
+    transform: scale(1.1);
+}
+
+.react-image {
+    width: 9%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.react-image:hover {
+    transform: scale(1.1);
+}
+
+.html-image {
+    width: 8%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.html-image:hover {
+    transform: scale(1.1);
+}
+
+.css-image {
+    width: 8%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.css-image:hover {
+    transform: scale(1.1);
+}
